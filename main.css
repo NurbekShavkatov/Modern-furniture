@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.modernFurniture{
+    margin: 20px auto;
+    display: flex;
+    gap: 30px;
+}
+.colorScheme{
+    flex-direction: column;
+} 
+.general{
+    width: 100px;
+    height: 100px;
+}
+.flyer{
+    background-image: url(./images/bakground.png);
+    width: 1080px;
+    height: 1080px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.general:hover{
+    border: 8px solid blue;
+}
+
+/* Writings part */
+
+
+.writings{
+    width: 423px;
+    flex-direction: column;
+    position: absolute;
+    left: 97px;
+    top: 122px;
+    gap: 50px;
+    color: aliceblue;
+}
+.modern_furniture{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 19px;
+}
+.lorem{
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 19px;
+}
+.shopNow{
+    margin-top: 584px;
+    width: 148px;
+    height: 32px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+    padding: 13px 66px;
+    width: 280.57px;
+    height: 58.51px;
+    background: #D37528;
+    border-radius: 26.5143px; 
+    text-decoration: underline;
+}
+.to_connect{
+    display: flex;
+    margin-top: 66px;
+}
+.reach_us{
+    color: white;
+    margin-left: 13px;
+    font-size: 30px;
+    background-color: transparent;
+    border-color: transparent;
+}
+.back_discount{
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    left: 330px;
+    top: 435px;
+    background: #210B01;
+}
+.discount40{
+    position: absolute;
+    height: 105px;
+    left: 340px;
+    top: 465px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFF9F2;
+}
